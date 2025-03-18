@@ -73,7 +73,7 @@ void delay_ms(unsigned int delayTime);
 void spi_transfer(unsigned char data);
 // LUTs
 void sset_lut(void); // TODO: Unused?
-//void sset_fast_lut(void);
+void sset_fast_lut(void);
 
 extern const unsigned char lut_vcom0[];
 extern const unsigned char lut_ww[];
