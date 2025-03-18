@@ -262,7 +262,7 @@ xstrdup(char *s)
 }
 
 size_t
-utf8decode(char *c, Rune *u, size_t clen)
+utf8decode(const char *c, Rune *u, size_t clen)
 {
 	size_t i, j, len, type;
 	Rune udecoded;
