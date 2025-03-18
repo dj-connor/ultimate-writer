@@ -210,7 +210,7 @@ char *getsel(void);
 int x2col(int);
 int y2row(int);
 
-size_t utf8decode(char *, Rune *, size_t);
+size_t utf8decode(const char *, Rune *, size_t);
 size_t utf8encode(Rune, char *);
 
 void *xmalloc(size_t);
